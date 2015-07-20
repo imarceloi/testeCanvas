@@ -50,7 +50,7 @@ function init (){
 	light.position.set( -100, -100, -250 );
 	scene.add( light );
 
-	for ( var i = 0; i < 3; i++ ) {
+	for ( var i = 0; i < 5; i++ ) {
 		spheres.push( new Sphere( 100, 20, i * 200, 0, 0 ) );
 		scene.add( spheres[i].sphere );
 	};
